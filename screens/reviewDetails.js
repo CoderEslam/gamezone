@@ -1,15 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import {StatusBar} from 'expo-status-bar';
+import {globalStyle} from "../styles/global";
 
 export default function ReviewDetails() {
     return (
         <View>
-            <Text style={styles.container}>ReviewDetails Screen</Text>
+            <Text style={globalStyle.titleText}>ReviewDetails Screen</Text>
         </View>
     )
 }
-const styles = StyleSheet.create({
-    container: {
-        padding: 24
-    }
-})
