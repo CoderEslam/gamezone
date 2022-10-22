@@ -1,9 +1,9 @@
-import { Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 import {globalStyle} from "../styles/global";
 
 export default function About() {
     return (
-        <View>
+        <View style={globalStyle.container}>
             <Text style={globalStyle.titleText}>About Screen</Text>
         </View>
     )
