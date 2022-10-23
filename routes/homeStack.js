@@ -6,7 +6,7 @@ import ReviewDetails from "../screens/reviewDetails";
 * npm install @react-navigation/native-stack
 * npm install react-native-gesture-handler
 * */
-const screen = {
+const screenNav = {
     Home: {
         screen: Home
     },
@@ -14,7 +14,7 @@ const screen = {
         screen: ReviewDetails
     },
 }
-const HomeStack = createStackNavigator(screen /*pass object into this fun => register for stack navigator*/)
+const HomeStack = createStackNavigator(screenNav /*pass object into this fun => register for stack navigator*/)
 
 export default createAppContainer(HomeStack);
 
