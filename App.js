@@ -3,8 +3,8 @@ import * as Font from 'expo-font';
 import {useCallback, useState} from "react";
 import * as SplashScreen from 'expo-splash-screen';
 import {useFonts} from "expo-font";
+// import Drawer from "./routes/drawer";
 import Navigator from './routes/homeStack'
-import Home from "./screens/home";
 
 const getFonts = () => Font.loadAsync({})
 
@@ -29,6 +29,7 @@ export default function App() {
         // <View>
         //     <Home/>
         <Navigator/>
+        // <Drawer/>
         // </View>
     );
 

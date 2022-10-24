@@ -4,7 +4,10 @@ import Home from "../screens/home";
 import ReviewDetails from "../screens/reviewDetails";
 /*
 * npm install @react-navigation/native-stack
+* npm install react-native-gesture-detector
 * npm install react-native-gesture-handler
+* npm install react-navigation-drawer
+* npm install --save-dev @babel/plugin-proposal-export-namespace-from
 * */
 const screenNav = {
     Home: {
